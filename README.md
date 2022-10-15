@@ -22,5 +22,7 @@ The frequently model used for now as the solution has several problems:
 
 - Structure
 
+	![image-stru](https://raw.githubusercontent.com/FionaChan01/Medi-BERT/main/images/Structure.png)
+
 ## 3⃣️ Result
 
