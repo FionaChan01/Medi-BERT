@@ -14,15 +14,22 @@ The frequently model used for now as the solution has several problems:
 
 ## 2⃣️ Algorithm Design
 
+**Structure**
+
+<div align=center>
+	<img src="https://raw.githubusercontent.com/FionaChan01/Medi-BERT/main/images/Structure.png">
+  </div>
+
 ### 1) Data Augmentation
 
+- Knowledge Graph
+	- After obtaining the user consultation text, the text is firstly **divided** into words using the Chinese word separation library: jieba, and then each word in the text is **searched for all its triples** in the knowledge graph, and **one triple is randomly selected** and put into brackets, and **added** into the original word. Although simple, the table in the results section shows that such an embedding method can bring some improvement to the model.
 
+- Adding Adversarial Samples
 
 ### 2) Model Training
 
-- Structure
 
-	![image-stru](https://raw.githubusercontent.com/FionaChan01/Medi-BERT/main/images/Structure.png)
 
 ## 3⃣️ Result
 
