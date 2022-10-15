@@ -2,7 +2,14 @@
 
 This repository contains the code for our [*National Innovation Project*](http://gjcxcy.bjtu.edu.cn/NewLXItemListForStudentDetail.aspx?ItemNo=785167), which focuses on the problem of how to accurately triage the patients in the hospital to a specific department; the Project was rated as Good.
 
-[TOC]
+- [Medi-BERT](#medi-bert)
+  * [1⃣️ Background](#1---background)
+  * [2⃣️ Algorithm Design](#2---algorithm-design)
+    + [1) Model Structure](#1--model-structure)
+    + [2) Data Augmentation](#2--data-augmentation)
+    + [3) Inference](#3--inference)
+  * [3⃣️ Result](#3---result)
+  * [4⃣️ Resources](#4---resources)
 
 ## 1⃣️ Background
 
