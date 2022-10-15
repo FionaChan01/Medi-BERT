@@ -2,6 +2,8 @@
 
 This repository contains the code for our [*National Innovation Project*](http://gjcxcy.bjtu.edu.cn/NewLXItemListForStudentDetail.aspx?ItemNo=785167), which focuses on the problem of how to accurately triage the patients in the hospital to a specific department; the Project was rated as Good.
 
+[TOC]
+
 ## 1⃣️ Background
 
 > When first entering a hospital, patients are not sure which department they should visit, so hospital guidance station is prone to congestion during peak periods, especially in the context of the current epidemic, which may cause a series of problems such as the transmission of diseases, bringing many inconveniences to patients and hospitals. 
@@ -14,13 +16,13 @@ The frequently model used for now as the solution has several problems:
 
 ## 2⃣️ Algorithm Design
 
-### 0）**Model Structure**
+### 1) Model Structure
 
 <div align=center>
 	<img src="https://raw.githubusercontent.com/FionaChan01/Medi-BERT/main/images/Structure.png">
   </div>
 
-### 1) Data Augmentation
+### 2) Data Augmentation
 
 - Adding Knowledge Graph
   - After obtaining the user consultation text, the text is firstly **divided** into words using the Chinese word separation library: jieba, and then each word in the text is **searched for all its triples** in the knowledge graph, and **one triple is randomly selected** and put into brackets, and **added** into the original word. Although simple, the table in the results section shows that such an embedding method can bring some improvement to the model.
@@ -49,7 +51,7 @@ The frequently model used for now as the solution has several problems:
 
 	- As the text described by the patients may be too vague, and concise as well as carry little information, the knowledge graph is needed to guide the patients in an appropriate way to enrich the semantics and inject the knowledge used in training to further improve the accuracy of the model.
 
-### 2) Inference 
+### 3) Inference 
 
 - Precisely Mapping
 
