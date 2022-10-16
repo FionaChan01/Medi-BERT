@@ -1,5 +1,7 @@
 # Medi-BERT
 
+[![](https://img.shields.io/apm/l/vim-mode)](https://opensource.org/licenses/MIT)
+
 This repository contains the code for our [*National Innovation Project*](http://gjcxcy.bjtu.edu.cn/NewLXItemListForStudentDetail.aspx?ItemNo=785167), which focuses on the problem of how to accurately triage the patients in the hospital to a specific department; the Project was rated as Good.
 
 * [Medi-BERT](#medi-bert)
@@ -137,4 +139,11 @@ The final results of Medi-BERT on the test set when using the unaugmented datase
 - Training Corpus:  [寻医问药网](https://www.xywy.com/)
 
 - Knowledge Graph: [CMeKG](http://cmekg.pcl.ac.cn/)
+
+## 5⃣️ Contributors
+
+|                                                              |
+| ------------------------------------------------------------ |
+| <a href="https://github.com/FionaChan01/Medi-BERT/graphs/contributors"><img src="https://opencollective.com/standard-readme/contributors.svg?width=890&button=false" /></a> |
+|                                                              |
 
