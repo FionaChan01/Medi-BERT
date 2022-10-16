@@ -2,14 +2,14 @@
 
 This repository contains the code for our [*National Innovation Project*](http://gjcxcy.bjtu.edu.cn/NewLXItemListForStudentDetail.aspx?ItemNo=785167), which focuses on the problem of how to accurately triage the patients in the hospital to a specific department; the Project was rated as Good.
 
-- [Medi-BERT](#medi-bert)
-  * [1⃣️ Background](#1---background)
-  * [2⃣️ Algorithm Design](#2---algorithm-design)
-    + [1) Model Structure](#1--model-structure)
-    + [2) Data Augmentation](#2--data-augmentation)
-    + [3) Inference](#3--inference)
-  * [3⃣️ Result](#3---result)
-  * [4⃣️ Resources](#4---resources)
+* [Medi-BERT](#medi-bert)
+   * [<g-emoji class="g-emoji" alias="one" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/0031-20e3.png">1⃣</g-emoji>️ Background](#1⃣️-background)
+   * [<g-emoji class="g-emoji" alias="two" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/0032-20e3.png">2⃣</g-emoji>️ Algorithm Design](#2⃣️-algorithm-design)
+      * [1) Model Structure](#1-model-structure)
+      * [2) Data Augmentation](#2-data-augmentation)
+      * [3) Inference](#3-inference)
+   * [<g-emoji class="g-emoji" alias="three" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/0033-20e3.png">3⃣</g-emoji>️ Result](#3⃣️-result)
+   * [<g-emoji class="g-emoji" alias="four" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/0034-20e3.png">4⃣</g-emoji>️ Resources](#4⃣️-resources)
 
 ## 1⃣️ Background
 
