@@ -142,8 +142,4 @@ The final results of Medi-BERT on the test set when using the unaugmented datase
 
 ## 5⃣️ Contributors
 
-|                                                              |
-| ------------------------------------------------------------ |
-| <a href="https://github.com/FionaChan01/Medi-BERT/graphs/contributors"><img src="https://opencollective.com/standard-readme/contributors.svg?width=890&button=false" /></a> |
-|                                                              |
-
+<a href="https://github.com/FionaChan01/Medi-BERT/graphs/contributors"><img src="https://opencollective.com/medi-bert/contributors.svg?width=890&button=false" /></a>
