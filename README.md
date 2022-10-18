@@ -38,7 +38,9 @@ The frequently model used for now as the solution has several problems:
 
   - Process of adding Knowledge
 
-  	[⚠️ TODO: Graph of the Process]
+  	<div align=center>
+  		<img src="https://raw.githubusercontent.com/FionaChan01/Medi-BERT/main/images/know_emb.png" width="60%">
+  		</div>
   
   - Knowledge Embedding Algorithm
 
@@ -52,7 +54,9 @@ The frequently model used for now as the solution has several problems:
 
 	- Process of noise embedding
 
-		[⚠️ TODO：Graph of noise embedding]
+		<div align=center>
+  		<img src="https://raw.githubusercontent.com/FionaChan01/Medi-BERT/main/images/noi_emb.png" width="60%">
+  		</div>
 
 		- The unsupervised learning of **TF-IDF features** is performed on the symptom description texts of each department in the training corpus, words with less than 500 occurrences are filtered out, and the **cosine similarity** of TF-IDF features of symptom description texts of two departments is calculated and normalized with respect to the **conversion probability**.
 		- In the training reading samples, each sample can be replaced with the label of another department with a 20% probability based on the conversion probability and keep the original label unchanged with an 80% probability
@@ -60,7 +64,9 @@ The frequently model used for now as the solution has several problems:
 
 - Semantic Enrichment
 
-	[⚠️ TODO: Graph of semantic enrichment]
+	<div align=center>
+  		<img src="https://raw.githubusercontent.com/FionaChan01/Medi-BERT/main/images/syn_enr.png" width="60%">
+  		</div>
 
 	- As the text described by the patients may be too vague, and concise as well as carry little information, the knowledge graph is needed to guide the patients in an appropriate way to enrich the semantics and inject the knowledge used in training to further improve the accuracy of the model.
 
@@ -70,7 +76,9 @@ The frequently model used for now as the solution has several problems:
 
 	- Process of Error Correction
 
-		[⚠️ TODO]
+		<div align=center>
+  		<img src="https://raw.githubusercontent.com/FionaChan01/Medi-BERT/main/images/err_cre.png" width="60%">
+  		</div>
 
 	- After the user input at the first time, the model **does not return the result immediately** but focuses on the departments corresponding to the **top three dimensions of the output vector**, and for these three departments, the corresponding symptoms are queried in the knowledge graph, and the user is **asked with the same symptoms** for three rounds with four relevant options and one "none of these" options in each round.
 
