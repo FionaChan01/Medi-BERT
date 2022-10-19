@@ -55,7 +55,7 @@ The frequently model used for now as the solution has several problems:
 	- Process of noise embedding
 
 		<div align=center>
-  		<img src="https://raw.githubusercontent.com/FionaChan01/Medi-BERT/main/images/noi.png" width="60%">
+  		<img src="https://raw.githubusercontent.com/FionaChan01/Medi-BERT/main/images/noi.png" width="100%">
   		</div>
 
 		- The unsupervised learning of **TF-IDF features** is performed on the symptom description texts of each department in the training corpus, words with less than 500 occurrences are filtered out, and the **cosine similarity** of TF-IDF features of symptom description texts of two departments is calculated and normalized with respect to the **conversion probability**.
