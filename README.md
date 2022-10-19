@@ -65,7 +65,7 @@ The frequently model used for now as the solution has several problems:
 - Semantic Enrichment
 
 	<div align=center>
-  		<img src="https://raw.githubusercontent.com/FionaChan01/Medi-BERT/main/images/enr.png" width="60%">
+  		<img src="https://raw.githubusercontent.com/FionaChan01/Medi-BERT/main/images/enr.png" width="100%">
   		</div>
 
 	- As the text described by the patients may be too vague, and concise as well as carry little information, the knowledge graph is needed to guide the patients in an appropriate way to enrich the semantics and inject the knowledge used in training to further improve the accuracy of the model.
@@ -77,7 +77,7 @@ The frequently model used for now as the solution has several problems:
 	- Process of Error Correction
 
 		<div align=center>
-  		<img src="https://raw.githubusercontent.com/FionaChan01/Medi-BERT/main/images/err.png" width="60%">
+  		<img src="https://raw.githubusercontent.com/FionaChan01/Medi-BERT/main/images/err.png" width="100%">
   		</div>
 
 	- After the user input at the first time, the model **does not return the result immediately** but focuses on the departments corresponding to the **top three dimensions of the output vector**, and for these three departments, the corresponding symptoms are queried in the knowledge graph, and the user is **asked with the same symptoms** for three rounds with four relevant options and one "none of these" options in each round.
